@@ -222,14 +222,14 @@ if __name__ == "__main__":
     # db.session.add(role)
     # db.session.commit()
 
-    from werkzeug.security import generate_password_hash
-    admin = Admin(
-        name = "momowang",
-        pwd = generate_password_hash("12345678"),
-        is_super = 0,
-        role_id = 1
-    )
-    db.session.add(admin)
-    db.session.commit()
+    # from werkzeug.security import generate_password_hash
+    # admin = Admin(
+    #     name = "momowang",
+    #     pwd = generate_password_hash("12345678"),
+    #     is_super = 0,
+    #     role_id = 1
+    # )
+    # db.session.add(admin)
+    # db.session.commit()
 
 
